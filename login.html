@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="login.css">
+	<title>
+		Login page for website...
+	</title>
+</head>
+
+<body>
+	<div id="container" class="container">
+		
+		<div class="row">
+			
+			<div class="col align-items-center flex-col sign-up">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-up">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Username">
+						</div>
+						<div class="input-group">
+							<i class='bx bx-mail-send'></i>
+							<input type="email" placeholder="Email">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Password">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Confirm password">
+						</div>
+						<button>
+							Sign up
+						</button>
+						<p>
+							<span>
+								Already have an account?
+							</span>
+							<b onclick="toggle()" class="pointer">
+								Sign in here
+							</b>
+						</p>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<div class="social-list align-items-center sign-up">
+						<div class="align-items-center facebook-bg">
+							<i class='bx bxl-facebook'></i>
+						</div>
+						<div class="align-items-center google-bg">
+							<i class='bx bxl-google'></i>
+						</div>
+						<div class="align-items-center twitter-bg">
+							<i class='bx bxl-twitter'></i>
+						</div>
+						<div class="align-items-center insta-bg">
+							<i class='bx bxl-instagram-alt'></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col align-items-center flex-col sign-in">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-in">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Username">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Password">
+						</div>
+						<button>
+							Sign in
+						</button>
+						<p>
+							<b>
+								Forgot password?
+							</b>
+						</p>
+						<p>
+							<span>
+								Don't have an account?
+							</span>
+							<b onclick="toggle()" class="pointer">
+								Sign up here
+							</b>
+						</p>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<div class="social-list align-items-center sign-in">
+						<div class="align-items-center facebook-bg">
+							<i class='bx bxl-facebook'></i>
+						</div>
+						<div class="align-items-center google-bg">
+							<i class='bx bxl-google'></i>
+						</div>
+						<div class="align-items-center twitter-bg">
+							<i class='bx bxl-twitter'></i>
+						</div>
+						<div class="align-items-center insta-bg">
+							<i class='bx bxl-instagram-alt'></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="row content-row">
+		
+			<div class="col align-items-center flex-col">
+				<div class="text sign-in">
+					<h2>
+						Welcome back
+					</h2>
+					<p>
+						When a new account has been activated, you should use the confirmation screen to tell the user what they can expect moving forward. 
+
+                        This is also a great opportunity to express how you feel about a new subscriber. In other words, share your excitement!  
+					</p>
+				</div>
+				<div class="img sign-in">
+					<img src="" alt="">
+				</div>
+			</div>
+		
+			<div class="col align-items-center flex-col">
+				<div class="img sign-up">
+					<img src="" alt="">
+				</div>
+				<div class="text sign-up">
+					<h2>
+						Join with us
+					</h2>
+					<p>
+						A good welcome message establishes the groundwork for a long-term relationship. It can also convince users of the value you offer them. Often, people view a new user as a win, thinking the job is done, but in reality, the work has just begun. 
+					</p>
+				</div>
+			</div>
+		
+		</div>
+		
+	</div>
+
+	<script src="login.js"></script>
+</body>
+
+</html>
